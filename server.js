@@ -24,10 +24,10 @@ app.use(express.static(__dirname + '/public'));
 //app.use(bodyParser.urlencoded({extended: false}));
 
 
-//Database
+//Database for CW3
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://jgroves:QA6CcxO7idKq1YU8@cluster0.eeeuh.mongodb.net/whiteboard?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://jgroves:1vII2RJ97onSWH68@cluster0.5mdij.mongodb.net/whiteboard?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });

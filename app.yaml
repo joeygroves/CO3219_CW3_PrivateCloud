@@ -1,1 +1,4 @@
 runtime: nodejs12
+
+vpc_access_connector:
+  name: projects/co3219-cw3-privatecloud/locations/europe-west2/connectors/co3219-cw3-connector
